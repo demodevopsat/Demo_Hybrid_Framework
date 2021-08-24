@@ -29,7 +29,7 @@
 				<configuration>
 					<forkCount>0</forkCount>
 					<suiteXmlFiles>
-						<suiteXmlFile>${testSuite}.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<properties>
 						<property>
