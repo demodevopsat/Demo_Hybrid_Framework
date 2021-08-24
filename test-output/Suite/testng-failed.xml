@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="localPaMailBox_GC(failed)">
+    <parameter name="sheetName_TC" value="LocalPaMailBox_GreaterChina"/>
+    <classes>
+      <class name="com.hybridFramework.RMS.localPaMailBox.ExpertiseOnGreaterChina">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initializeObject"/>
+          <include name="endTest"/>
+          <include name="launchBrowser"/>
+          <include name="TC_BEI_TAI_HKG_01_To_09" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.hybridFramework.RMS.localPaMailBox.ExpertiseOnGreaterChina -->
+    </classes>
+  </test> <!-- localPaMailBox_GC(failed) -->
+</suite> <!-- Failed suite [Suite] -->

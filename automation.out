@@ -1,0 +1,4 @@
+2021-08-22 12:29:13 INFO  WaitHelper:40 - 30
+2021-08-22 12:29:13 INFO  WaitHelper:45 - 240
+2021-08-22 12:29:23 INFO  BrowserHelper:34 - Page Refreshed
+2021-08-22 12:29:29 INFO  GenericHelper:53 - element is displayed..[[ChromeDriver: chrome on WINDOWS (5a990ea3fb451a538c2cd964483ca798)] -> xpath: //div[@id='navbarExample']//a[@id='nameofuser']]
