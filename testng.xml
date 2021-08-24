@@ -2,5 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+    <classes>
+      <class
+              name="com.hybridFramework.Devops.TestForBookStoreLogin">
+        <methods>
+          <include name="TestForRegisterAUserAndLogin" />
+        </methods>
+      </class>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
